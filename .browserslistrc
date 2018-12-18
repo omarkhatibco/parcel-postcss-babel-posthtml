@@ -1,0 +1,8 @@
+# Browsers that we support
+
+
+>0.25%
+# IE 11
+not op_mini all
+not ie_mob 11
+not dead

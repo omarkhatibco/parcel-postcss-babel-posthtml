@@ -1,0 +1,17 @@
+<extends src="./layouts/default.html">
+	<block name="content">
+		<include src="./components/header.html"></include>
+		<div class="w-full bg-red font-bold">hello World</div>
+		<h1>sss</h1>
+		<h2>asdasd</h2>
+		<p lorem="2"></p>
+
+		<section><lorem size="3"></lorem></section>
+	</block>
+	<block name="content2" type="preappend"> <p class="name">test append</p> </block>
+	<block name="content3" type="apprepend">
+		<p>test prepend</p>
+		<include src="./components/button.html"></include>
+	</block>
+	<br /><br />
+</extends>

@@ -1,0 +1,17 @@
+@import './reset.css';
+/* @tailwind preflight; */
+
+@tailwind utilities;
+
+h1 {
+	& + h2 {
+		color: red;
+	}
+}
+
+.name {
+	color: blue;
+}
+.name {
+	background: black;
+}
