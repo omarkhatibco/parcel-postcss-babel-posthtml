@@ -1,9 +1,9 @@
 module.exports = {
 	modules: false,
-	plugins: {
-		'postcss-import': { path: 'src/styles' },
-		tailwindcss: './tailwind.config.js',
-		'postcss-preset-env': {
+	plugins: [
+		require('postcss-import')({ path: 'src/styles' }),
+		require('tailwindcss')('./tailwind.config.js'),
+		require('postcss-preset-env')({
 			preserve: true,
 			autoprefixer: { grid: 'autoplace' },
 			stage: 1,
@@ -16,7 +16,7 @@ module.exports = {
 				},
 				'nesting-rules': true,
 			},
-		},
-		'postcss-encode-background-svgs': {},
-	},
+		}),
+		require('postcss-encode-background-svgs'),
+	],
 };
