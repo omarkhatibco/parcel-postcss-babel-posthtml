@@ -16,28 +16,28 @@
 		"build": "rm -rf dist && parcel build src/index.html --out-dir dist --no-source-maps"
 	},
 	"dependencies": {
-		"parcel-bundler": "^1.11.0"
+		"parcel-bundler": "^1.12.3"
 	},
 	"devDependencies": {
-		"cssnano-preset-advanced": "^4.0.5",
-		"eslint": "^5.10.0",
-		"eslint-config-prettier": "^3.3.0",
-		"eslint-config-xo": "^0.25.1",
-		"eslint-plugin-prettier": "^3.0.0",
+		"cssnano-preset-advanced": "^4.0.7",
+		"eslint": "^6.0.1",
+		"eslint-config-prettier": "^6.0.0",
+		"eslint-config-xo": "^0.26.0",
+		"eslint-plugin-prettier": "^3.1.0",
 		"postcss-encode-background-svgs": "^1.0.3",
 		"postcss-import": "^12.0.1",
-		"postcss-preset-env": "^6.5.0",
+		"postcss-preset-env": "^6.7.0",
 		"posthtml-extend": "^0.3.0",
 		"posthtml-hint": "^0.8.2",
 		"posthtml-include": "^1.2.0",
 		"posthtml-lorem": "^1.0.0",
-		"prettier": "^1.15.3",
-		"stylelint": "^9.9.0",
-		"stylelint-config-prettier": "^4.0.0",
-		"stylelint-config-recommended": "^2.1.0",
-		"stylelint-config-xo": "^0.11.0",
-		"stylelint-order": "^2.0.0",
-		"stylelint-prettier": "^1.0.5",
-		"tailwindcss": "^0.7.3"
+		"prettier": "^1.18.2",
+		"stylelint": "^10.1.0",
+		"stylelint-config-prettier": "^5.2.0",
+		"stylelint-config-recommended": "^2.2.0",
+		"stylelint-config-xo": "^0.15.0",
+		"stylelint-order": "^3.0.0",
+		"stylelint-prettier": "^1.1.1",
+		"tailwindcss": "^1.0.5"
 	}
 }
