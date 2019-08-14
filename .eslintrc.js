@@ -13,7 +13,7 @@ module.exports = {
 			globalReturn: true,
 			generators: false,
 		},
-		ecmaVersion: 2017,
+		ecmaVersion: 8,
 		sourceType: 'module',
 	},
 	rules: {

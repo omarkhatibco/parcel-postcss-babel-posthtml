@@ -1,17 +1,11 @@
-@import './reset.css';
-/* @tailwind preflight; */
+@tailwind base;
+
+@tailwind components;
 
 @tailwind utilities;
 
-h1 {
-	& + h2 {
+body {
+	& button {
 		color: red;
 	}
-}
-
-.name {
-	color: blue;
-}
-.name {
-	background: black;
 }

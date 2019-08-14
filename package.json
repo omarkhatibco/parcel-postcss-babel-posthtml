@@ -20,11 +20,11 @@
 	},
 	"devDependencies": {
 		"cssnano-preset-advanced": "^4.0.7",
-		"eslint": "^6.0.1",
+		"eslint": "^6.1.0",
 		"eslint-config-prettier": "^6.0.0",
 		"eslint-config-xo": "^0.26.0",
 		"eslint-plugin-prettier": "^3.1.0",
-		"postcss-encode-background-svgs": "^1.0.3",
+		"postcss-encode-background-svgs": "^1.0.4",
 		"postcss-import": "^12.0.1",
 		"postcss-preset-env": "^6.7.0",
 		"posthtml-extend": "^0.3.0",
@@ -36,8 +36,8 @@
 		"stylelint-config-prettier": "^5.2.0",
 		"stylelint-config-recommended": "^2.2.0",
 		"stylelint-config-xo": "^0.15.0",
-		"stylelint-order": "^3.0.0",
+		"stylelint-order": "^3.0.1",
 		"stylelint-prettier": "^1.1.1",
-		"tailwindcss": "^1.0.5"
+		"tailwindcss": "^1.1.2"
 	}
 }
